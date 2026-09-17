@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.calculaor-container{
+  border: 2px solid rgb(113, 114, 113);
+  border-radius: 5px;
+  width: 235px;
+  height: 435px;
+}
+
+#display {
+  border: 2px solid black;
+  margin: 20px;
+  width: 75%;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+} 
+
+.button {
+  border: 2px solid rgba(163, 151, 151, 0.479);
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button-container {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}

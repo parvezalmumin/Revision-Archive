@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Website" />
+    <meta name="author" content="Your Name" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <button
+        class="design"
+        onclick="
+          cartQuantity = cartQuantity + 1;
+          document.querySelector('.cartSummary').innerText =
+            `Total: ${cartQuantity}`;
+        "
+      >
+        Add This in Cart
+      </button>
+
+      <button
+        class="design"
+        onclick="
+          cartQuantity = cartQuantity * 0;
+          document.querySelector('.cartSummary').innerText =
+            `Total: ${cartQuantity}`;
+        "
+      >
+        Clear The Cart
+      </button>
+
+      <button
+        class="design"
+        onclick="
+          cartQuantity = cartQuantity - 1;
+          document.querySelector('.cartSummary').innerText =
+            `Total: ${cartQuantity}`;
+        "
+      >
+        Remove This from Cart
+      </button>
+
+      <h1 class="cartSummary"></h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

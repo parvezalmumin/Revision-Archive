@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box{
+  border: 2px solid black;
+  padding: 30px 40px;
+ text-align: center;
+}
+
+.design{
+  padding: 20px 30px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  height: 100vh;
+}

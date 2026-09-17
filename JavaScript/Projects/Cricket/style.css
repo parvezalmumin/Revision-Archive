@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+.button {
+  color: blueviolet;
+  padding: 10px;
+  margin-right: 15px; 
+  margin-bottom: 15px;
+}

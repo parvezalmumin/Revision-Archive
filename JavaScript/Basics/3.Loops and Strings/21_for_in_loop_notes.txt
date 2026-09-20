@@ -1,0 +1,15 @@
+for...in is a loop used to go through the keys/properties of an object.
+
+Syntax
+_______________________________________
+for (let key in object) {
+    // code
+}
+_______________________________________
+
+Here:
+for → starts the loop
+let key → variable that stores the current key
+in → goes through the keys
+object → the object we want to loop through
+

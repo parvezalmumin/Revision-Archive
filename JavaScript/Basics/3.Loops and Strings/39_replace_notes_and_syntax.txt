@@ -1,0 +1,10 @@
+# What is replace()?
+=
+replace() is used to find something inside a string and replace it with something else.
+
+_____________________________________________
+| string.replace(searchValue, newValue)      |
+|____________________________________________|
+
+searchValue → what you want to find
+newValue → what you want to replace it with

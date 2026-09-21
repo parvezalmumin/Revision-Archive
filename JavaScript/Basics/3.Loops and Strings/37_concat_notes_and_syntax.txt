@@ -1,0 +1,12 @@
+# What is concat()?
+=
+concat() is used to join two or more strings together.
+
+___________________________________________
+| string1.concat(string2)                  |
+|__________________________________________|
+
+You can also join multiple strings:
+____________________________________________
+| string1.concat(string2, string3, string4) |
+|___________________________________________|

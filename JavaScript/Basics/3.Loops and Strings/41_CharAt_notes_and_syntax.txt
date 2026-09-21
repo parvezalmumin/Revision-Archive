@@ -1,0 +1,9 @@
+# What is charAt()?
+=
+charAt() returns the character at a specific index of a string.
+
+# Syntax
+__________________________________________
+| string.charAt(index)                    |
+|_________________________________________|
+

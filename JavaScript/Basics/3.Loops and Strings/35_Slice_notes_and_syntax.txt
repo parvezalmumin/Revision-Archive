@@ -1,0 +1,14 @@
+# What is slice()?
+
+- slice() is used to extract a part of a string.
+
+It does not change the original string.
+
+____________________________________________
+| string.slice(start, end)                  |
+|___________________________________________|
+
+start → where slicing starts
+end → where slicing stops
+
+The end index is not included

@@ -1,0 +1,6 @@
+toString() in JavaScript
+
+toString() is a method that converts a value into a string.
+For an array, it converts all array elements into a single string.
+It does not change the original array.
+It returns a new string.

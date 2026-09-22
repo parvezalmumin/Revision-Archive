@@ -1,0 +1,3 @@
+push() adds one or more elements to the end of an array.
+It changes the original array.
+It returns the new length of the array.

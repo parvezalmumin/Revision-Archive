@@ -1,0 +1,41 @@
+JavaScript Array & String Methods — Theory Note
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________
+Array Methods
+
+There are mainly two types of array methods:
+
+1. Mutating Methods
+- These methods change the original array.
+- Examples: push(), pop(), shift(), unshift(), splice(), sort(), reverse()
+
+2. Non-Mutating Methods
+- These methods do not change the original array.
+- Some methods return a new array.
+- Examples: map(), filter(), slice(), concat()
+- Some return other types of values, such as includes() → Boolean and indexOf() → Number.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+String Methods
+
+- Strings are immutable in JavaScript.
+- This means the original string cannot be changed directly.
+- String methods return a new string instead of modifying the original string.
+
+Example:
+_______________________________________
+| let str = "hello";                   |
+|                                      |
+| let newStr = str.toUpperCase();      |
+|                                      |
+| console.log(str);     // hello       |
+| console.log(newStr);  // HELLO       |
+|______________________________________|
+
+Easy way to remember:
+____________________________________________________
+| Array → Mutable → Can be changed                  |
+|                                                   |
+| String → Immutable → Cannot be changed directly   |
+|___________________________________________________|

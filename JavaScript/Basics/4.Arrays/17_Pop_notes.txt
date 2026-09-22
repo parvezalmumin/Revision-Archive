@@ -1,0 +1,4 @@
+
+pop() removes the last element from an array.
+It changes the original array.
+It returns the removed element.

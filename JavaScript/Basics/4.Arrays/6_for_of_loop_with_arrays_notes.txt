@@ -1,0 +1,1 @@
+for...of gives us the values directly.

@@ -1,0 +1,14 @@
+slice() in JavaScript Arrays: 
+- slice() is a non-mutating array method. 
+- It isused to extract a portion of an array.
+ - It does not change the original array.
+- It returns a new array containing the selected elements.
+
+
+Syntax:
+________________________________
+| array.slice(start, end);     |
+|______________________________|
+
+start → starting index (included)
+end → ending index (not included)

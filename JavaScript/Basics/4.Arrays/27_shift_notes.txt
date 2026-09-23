@@ -1,0 +1,19 @@
+shift() in JavaScript Arrays:
+
+- shift() is a mutating array method.
+- It is used to remove the first element from an array.
+- It changes the original array.
+- It returns the removed element.
+
+__________________________________________________________________________
+shift() removes only one element at a time.
+
+But you can call shift() twice to remove the first two elements.
+___________________________________
+| let numbers = [10, 20, 30, 40];  |
+|                                  |
+| numbers.shift();                 |
+| numbers.shift();                 |
+|                                  |
+| console.log(numbers);            | 
+|__________________________________|

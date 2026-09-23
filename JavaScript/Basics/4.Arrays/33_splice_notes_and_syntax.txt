@@ -1,0 +1,17 @@
+splice() in JavaScript Arrays:
+
+- splice() is a mutating array method.
+- It is used to add, remove, or replace elements in an array.
+- It changes the original array.
+- It returns a new array containing the removed elements.
+
+
+Syntax
+_______________________________________________________
+|                                                      |
+| array.splice(start, deleteCount, item1, item2, ...); |
+|______________________________________________________|
+
+start → index where the operation starts
+deleteCount → number of elements to remove
+item1, item2 → elements to add

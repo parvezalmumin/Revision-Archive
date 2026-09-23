@@ -1,0 +1,6 @@
+concat() in JavaScript Arrays:
+
+- concat() is a non-mutating array method.
+- It is used to join two or more arrays.
+- It does not change the original arrays.
+- It returns a new array.

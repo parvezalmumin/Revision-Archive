@@ -1,0 +1,11 @@
+slice() vs splice()
+
+slice()
+→ Does NOT change original array
+→ Extracts elements
+→ Returns a new array
+
+splice()
+→ CHANGES original array
+→ Adds/removes/replaces elements
+→ Returns removed elements

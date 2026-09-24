@@ -1,0 +1,13 @@
+# What is a Function?
+=
+A function is a block of code designed to perform a specific task. Instead of writing the same code again and again, we can put it inside a function and call the function whenever we need it.
+
+
+# Why do we use Functions?
+=
+Functions help us:
+- Avoid repeating code
+- Organize code
+- Make code easier to understand
+- Reuse code
+- Break a large program into smaller parts

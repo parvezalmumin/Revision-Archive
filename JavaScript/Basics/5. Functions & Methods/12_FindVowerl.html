@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Count Vowels</title>
+  </head>
+  <body>
+    <script>
+      // Take input from user
+      let text = prompt("Enter a word or sentence:");
+
+      // Function to count vowels
+      function countVowels(text) {
+        let count = 0;
+
+        // Loop through each character
+        for (let i = 0; i < text.length; i++) {
+          // Check if character is a vowel
+          if (
+            text[i] === "a" ||
+            text[i] === "e" ||
+            text[i] === "i" ||
+            text[i] === "o" ||
+            text[i] === "u"
+          ) {
+            count++;
+          }
+        }
+
+        return count;
+      }
+
+      // Call the function
+      let result = countVowels(text);
+
+      // Print output
+      console.log("Number of vowels: " + result);
+      alert("Number of vowels: " + result);
+    </script>
+  </body>
+</html>

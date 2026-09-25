@@ -1,0 +1,10 @@
+Write a JavaScript program that takes a word or sentence as input from the user and counts the total number of vowels (a, e, i, o, u) in the given text.
+
+Requirements:
+
+Take the text as input using prompt().
+Create a function named countVowels() to count the vowels.
+Use a for loop to check each character.
+Use a conditional statement to identify vowels.
+Return the total number of vowels.
+Display the result using console.log() and alert().

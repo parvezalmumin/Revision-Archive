@@ -1,0 +1,11 @@
+Write a JavaScript program that takes a word or sentence as input from the user and counts the total number of vowels (a, e, i, o, u) in the given text using an Arrow Function.
+
+Requirements:
+
+Take the text as input using prompt().
+Create an Arrow Function named countVowels to count the vowels.
+Use a for loop to check each character of the text.
+Use a conditional statement to identify vowels.
+Return the total number of vowels from the Arrow Function.
+Call the countVowels function and store the result in a variable.
+Display the result using both console.log() and alert().

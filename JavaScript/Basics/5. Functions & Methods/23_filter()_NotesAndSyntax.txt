@@ -1,0 +1,12 @@
+filter() is used when you want to select certain elements from an array based on a condition.
+
+The important idea:
+
+filter() checks every element and creates a new array containing only the elements that pass the condition.
+
+Basic syntax:
+_____________________________________________
+| let newArray = array.filter((value) => {   |
+|    return condition;                       |
+| });                                        |
+|____________________________________________|

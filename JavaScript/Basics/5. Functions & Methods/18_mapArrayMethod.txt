@@ -1,0 +1,13 @@
+map() is used when you want to take every element of an array, do something with it and create a new array.
+
+Basic syntax:
+________________________________________________
+| let newArray = array.map((value) => {         |
+|    return something;                          |
+|  });                                          |
+|_______________________________________________|
+
+
+The most important thing to remember:
+   
+    map() returns a new array.

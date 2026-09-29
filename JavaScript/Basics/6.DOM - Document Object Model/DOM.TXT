@@ -9,3 +9,30 @@ The DOM is a programming interface that represents an HTML webpage as a tree of 
 Think of it like this:
 
 HTML creates the webpage → Browser converts HTML into the DOM → JavaScript interacts with the DOM
+
+__________________________________________________________________________________________________________________
+
+Suppose you have:
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is my website.</p>
+    <button>Click Me</button>
+  </body>
+</html>
+
+The browser turns this into a structure similar to:
+
+Document
+└── html
+    └── body
+        ├── h1
+        │   └── "Hello World"
+        ├── p
+        │   └── "This is my website."
+        └── button
+            └── "Click Me"
+
+This structure is called the DOM tree.

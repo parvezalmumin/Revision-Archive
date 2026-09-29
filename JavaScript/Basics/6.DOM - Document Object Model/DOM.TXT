@@ -36,3 +36,31 @@ Document
             └── "Click Me"
 
 This structure is called the DOM tree.
+
+__________________________________________________________________________________________________________________
+
+Why is it called a "tree"?
+
+Because elements have parent-child relationships.
+
+For example:
+
+<body>
+    <h1>Hello</h1>
+    <p>Welcome</p>
+</body>
+
+Here:
+- body → parent
+- h1 → child of body
+- p → child of body
+- "Hello" → text node inside h1
+
+So you can think of the DOM as a family tree:
+
+body
+├── h1
+│   └── "Hello"
+└── p
+    └── "Welcome"
+

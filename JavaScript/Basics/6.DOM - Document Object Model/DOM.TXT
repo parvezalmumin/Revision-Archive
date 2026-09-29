@@ -1,0 +1,11 @@
+What is DOM?
+=>
+
+DOM = Document Object Model
+
+The DOM is a programming interface that represents an HTML webpage as a tree of objects. JavaScript uses the DOM to read, change, add, or remove elements and content on a webpage.
+
+
+Think of it like this:
+
+HTML creates the webpage → Browser converts HTML into the DOM → JavaScript interacts with the DOM

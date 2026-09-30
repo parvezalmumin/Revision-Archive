@@ -1,0 +1,24 @@
+What will console.dir() show?
+_____________________________________________________________________________________________________
+|                                                                                                    |
+| ƒ Object()                                                                                         |
+|    assign: ƒ assign()                                                                              |
+|    create: ƒ create()                                                                              |
+|    defineProperties: ƒ defineProperties()                                                          |
+|    defineProperty: ƒ defineProperty()                                                              |
+|    entries: ƒ entries()                                                                            |
+|    freeze: ƒ freeze()                                                                              |
+|    fromEntries: ƒ fromEntries()                                                                    | 
+|    getOwnPropertyDescriptor: ƒ                                                                     |  
+|    getOwnPropertyDescriptors: ƒ                                                                    |
+|    getOwnPropertyNames: ƒ                                                                          |
+|    getOwnPropertySymbols: ƒ                                                                        |
+|    getPrototypeOf: ƒ                                                                               |
+|    hasOwn: ƒ                                                                                       |
+|    is: ƒ                                                                                           |
+|    isExtensible: ƒ                                                                                 |
+|    isFrozen: ƒ                                                                                     |
+|    isSealed: ƒ                                                                                     |
+|   keys: ƒ keys()                                                                                   |
+|    ...                                                                                             |
+|____________________________________________________________________________________________________|

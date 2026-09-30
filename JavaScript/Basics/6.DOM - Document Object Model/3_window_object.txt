@@ -2,3 +2,12 @@ What is window.Object?
 =
 window is the global object provided by the browser.
 Object is JavaScript's built-in Object constructor.
+
+So:
+___________________
+|                  |
+| window.Object    |
+|__________________|
+
+means:
+"Give me the Object property from the browser's global window object."

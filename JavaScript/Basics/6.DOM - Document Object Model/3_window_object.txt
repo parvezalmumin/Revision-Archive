@@ -1,0 +1,4 @@
+What is window.Object?
+=
+window is the global object provided by the browser.
+Object is JavaScript's built-in Object constructor.

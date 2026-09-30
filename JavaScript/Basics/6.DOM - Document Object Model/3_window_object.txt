@@ -11,3 +11,12 @@ ___________________
 
 means:
 "Give me the Object property from the browser's global window object."
+
+In fact, these are essentially the same:
+__________________________________ 
+|                                 |
+| console.dir(window.Object);     |
+| console.dir(Object);            |
+|_________________________________|
+
+Both refer to JavaScript's built-in Object constructor.

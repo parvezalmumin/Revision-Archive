@@ -1,0 +1,7 @@
+prepend() → inside the element, at the beginning
+
+before()  → outside the element, before it
+
+append()  → inside the element, at the end
+
+after()   → outside the element, after it

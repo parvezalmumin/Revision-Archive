@@ -1,0 +1,11 @@
+The 4 Main Attribute Methods
+
+Remember these four:
+
+Method	Purpose
+___________________________________________________
+| getAttribute()	  |    Get/read an attribute     |
+| setAttribute()	  |    Add/change an attribute   |
+| removeAttribute() |  	Remove an attribute        |
+| hasAttribute()    |  	Check if attribute exists  |
+|__________________________________________________|

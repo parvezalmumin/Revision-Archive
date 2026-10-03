@@ -1,0 +1,10 @@
+click       → user clicks
+dblclick    → user double-clicks
+mouseover   → mouse moves onto element
+mouseout    → mouse leaves element
+keydown     → keyboard key is pressed
+keyup       → keyboard key is released
+input       → input value changes while typing
+change      → form value is changed
+submit      → form is submitted
+load        → page/resource finishes loading

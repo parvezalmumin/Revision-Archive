@@ -1,0 +1,14 @@
+What is addEventListener()?
+=
+addEventListener() is a JavaScript method used to tell an element:
+
+"Watch for this event. When it happens, run this function."
+
+
+Basic structure:
+_______________________________________________________
+|                                                      |
+| element.addEventListener("event", function () {      | 
+|     // code to run                                   |
+| });                                                  |
+|______________________________________________________|

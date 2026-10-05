@@ -1,0 +1,4 @@
+Greeting Generator
+
+Take the user's name using prompt() and display:
+Hello, Parvez! Welcome to my website.

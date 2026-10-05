@@ -1,0 +1,3 @@
+Name Word Counter
+
+Take the user's full name using `prompt()`, display a greeting, and display how many words are in their name.

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const employee = {
+        calcTax() {
+          console.log("tax rate is 10%");
+        },
+      };
+
+      const mumin = {
+        salary: 500,
+      };
+
+      mumin.__proto__ = employee;
+
+      mumin.calcTax();
+    </script>
+  </body>
+</html>

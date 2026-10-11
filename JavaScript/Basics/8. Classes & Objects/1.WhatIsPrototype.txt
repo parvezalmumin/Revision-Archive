@@ -1,0 +1,3 @@
+What is a Prototype in JavaScript?
+
+= A prototype is an object that another object can use to access properties and methods.

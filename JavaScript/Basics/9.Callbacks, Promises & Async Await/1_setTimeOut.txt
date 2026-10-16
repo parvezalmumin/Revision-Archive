@@ -1,0 +1,14 @@
+What is setTimeout() ?
+= setTimeout() is used to execute a function after a specified amount of time.
+
+
+Syntax:
+_________________________________________________________
+|                                                        |
+| setTimeout(function, delay);                           |
+|________________________________________________________|
+
+Here,
+- function: The code you want to execute.
+- delay: The waiting time in milliseconds.
+- 1000 milliseconds = 1 second

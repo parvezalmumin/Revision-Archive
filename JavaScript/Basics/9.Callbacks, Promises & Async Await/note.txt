@@ -1,0 +1,51 @@
+Callback Function
+
+Definition: A callback function is a function that is passed as an argument to another function and is called later inside that function.
+
+In simple words: A callback is a function that waits for another function to call it.
+
+Uses:
+- Event handling (button clicks).
+- Timers (setTimeout).
+- Array methods (forEach, map).
+
+  _____________________________________________________________
+
+
+Promise
+
+Definition: A Promise is an object that represents the eventual completion or failure of an asynchronous operation.
+
+In simple words: A Promise is a way to handle a task that will finish in the future.
+
+A Promise has three states:
+1. Pending: The task is still running.
+2. Fulfilled: The task completed successfully.
+3. Rejected: The task failed.  
+
+Important methods:
+- .then() – Runs when the Promise is successful.
+- .catch() – Runs when the Promise fails.
+- .finally() – Runs whether the Promise succeeds or fails.
+Uses:
+- Fetching data from an API.
+- Uploading files.
+- Handling server responses.
+  _______________________________________________________
+
+Async/Await
+
+Definition: Async/Await is a modern way of working with Promises that makes asynchronous code easier to read and understand.
+
+In simple words: It allows us to write Promise-based code in a way that looks more like normal step-by-step code.
+
+Important keywords:
+- async – Makes a function return a Promise.
+- await – Waits for a Promise to settle before continuing inside the async function.
+
+Uses:
+- Fetching API data.
+- User authentication.
+- Loading data from a server.
+- Working with databases.
+_________________________________________________________________________________________________________

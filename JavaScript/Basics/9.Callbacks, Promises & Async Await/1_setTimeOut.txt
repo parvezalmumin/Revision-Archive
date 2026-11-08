@@ -1,4 +1,4 @@
-What is setTimeout() ?
+    What is setTimeout() ?
 = setTimeout() is used to execute a function after a specified amount of time.
 
 
